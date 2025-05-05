@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Jacques+Francois+Shadow&family=Kumar+One+Outline&family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+	<title>The Banned Book Club Page</title>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+	<header>
+		<div class="head">
+			<a href="./index.html"><img src="images/bannedBookClubLogo.png" alt="The Banned Book Club Logo" class="logoImage" /></a>
+            	<nav>
+            		<div class="headerNav">
+                		<ul>
+                    		<li class="undernav"><a href="#opening">the Book Club</a></li>
+                    		<li class="undernav"><a href="#join">join The Club</a></li>
+                    		<li class="undernav"><a href="#next">the Book List</a></li>
+                		</ul>
+                	</div>
+            	</nav>
+        </div>
+	</header>
+
+	<!-- End Navigation Bar -->
+
+	<!-- Opening Section -->
+
+	<section class="opening" id="opening">
+		<div class="container">
+			<div class="openImage">
+					<a class="image" href="list.html"><img src="images/bannedBooks.png" class="bannedImg" alt="Banned Books"></a>				
+			</div>
+			<div class="intro">
+				<div class="text">
+					<p><h1 class="capTitle">W</h1><h1 class="introText">elcome to the Banned Book Club.</h1></p><p><h2 class="introText">Reading is not only fundamental, it is our First Amendement Right. We believe in the freedom of thought and mind. Books are our gateway to understanding different concepts, different points-of-view, and different cultures.</p><p>When we ban books, we ban knowledge, we ban independent thought, we ban freedom.</p><p>So read with us, grab a banned book and join the discussion. Expand your thoughts, expand your mind.</p></h2>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<!-- End Opening Section -->
+
+	<!-- Read Now Section -->
+
+	<section class="readNow">
+		<div class="allReadNow">
+			<div class="bookNow">
+				<div class="column1">
+					<a class="image" href="list.html"><img src="images/bannedCircle.png" class="bannedImg" alt="Reading Now"></a>				
+				</div>	
+				<div class="column2">
+					<h2 class="bookText"><p>WHAT WE'RE READING NOW</p><p><i>This Book is Gay</i>, by Juno Dawson</p></h2>
+					<button type="button" class="buttonBuy">Click Here to Purchase</button>
+				</div>
+			</div>
+		</div>			
+		
+	</section>
+
+	<!-- End Read Now Section -->
+
+
+
+	<!-- Next Up Section -->
+
+	<section class="next" id="next">
+		<div class="nextUp">
+			<div class="nextTitle">
+				<h1 class="nextHead">WHAT WE'RE READING NEXT</h1>
+			</div>
+			<div class="row rowNext">
+				<div class="nextContainer">
+					<div class="monthTitle">
+						<h3 class="month">JUNE</h3>
+					</div>
+					<div class="image-container">
+						<img src="images/animalFarmCover.jpeg" class="nextImage" alt="Animal Farm Book Cover" />
+					</div>
+					<div class="content">
+						<h4 class="nextTitle">ANIMAL FARM</h4><p>
+							<h4 class="nextTitle">George Orwell</h4>
+						</p>
+						<button type="button" class="buttonNow">Buy Now</button>
+					</div>
+				</div>
+				<div class="nextContainer">
+					<div class="monthTitle">
+						<h3 class="month">JULY</h3>
+					</div>
+					<div class="image-container">
+						<img src="images/allBoysCover.jpg" class="nextImage" alt="All Boys Book Cover" />
+					</div>
+					<div class="content">
+						<h4 class="nextTitle">ALL BOYS AREN'T BLUE</h4><p>
+							<h4 class="nextTitle">George M. Johnson</h4>
+						</p>
+						<button type="button" class="buttonNow">Buy Now</button>
+					</div>
+				</div>
+				<div class="nextContainer">
+					<div class="monthTitle">
+						<h3 class="month">AUGUST</h3>
+					</div>
+					<div class="image-container">
+						<img src="images/killMockingbirdCover.jpg" class="nextImage" alt="To Kill A Mockingbird Book Cover" />
+					</div>
+					<div class="content">
+						<h4 class="nextTitle">TO KILL A MOCKINGBIRD</h4><p>
+							<h4 class="nextTitle">Harper Lee</h4>
+						</p>
+						<button type="button" class="buttonNow">Buy Now</button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+
+	<!-- End Next Up Section -->
+
+
+
+	<!-- Start Join Club Section -->
+
+	<section class="join" id="join">
+		<div class="joinUs">
+			<div class="nextTitle">
+				<h1 class="nextHead">JOIN THE BOOK CLUB</h1>
+			</div>
+
+
+			<div class="joinRow">
+				<div class="joinContainer">
+  					<form action="action_page.php">
+
+    				<p><label for="fname"><h4>First Name</h4></label></p>
+    					<input type="text" id="fname" name="firstname" placeholder="Your first name">
+
+    				<p><label for="lname"><h4>Last Name</h4></label></p>
+    					<p><input type="text" id="lname" name="lastname" placeholder="Your last name"></p>
+
+    				<label for="subject"><h4>What's Your Favorite Book?</h4></label>
+    					<textarea id="subject" name="subject" placeholder="Write here" style="height:100px"></textarea>
+
+    				<input type="submit" value="JOIN">
+
+  					</form>
+				</div>
+			
+
+				<div class="joinText">
+					<a href="./index.html"><img src="images/bannedBookClubLogoAlt.png" alt="The Banned Book Club Alternative Logo" class="joinImage" /></a>
+					<h2 class="bookText"><p>Sign up to join the Banned Book Club</p></h2>
+					<h4>We'll send you the schedule of books and meet-ups (both virtual and physical), so that you'll be ready to discuss these brilliant books.</h4>
+				</div>
+			</div>
+			
+		</div>
+		
+	</section>
+
+
+	<!-- End Join Club Section -->
+
+
+
+	<!-- Start Footer Section -->
+
+	<footer>
+		<div class="contentFooter">
+			<a href="./index.html"><img src="images/bannedBookClubLogo.png" alt="The Banned Book Club Logo" class="footerImage" /></a>
+				<nav>
+            		<div class="headerNav">
+                		<ul>
+                    		<li class="undernav"><a href="#opening">the Book Club</a></li>
+                    		<li class="undernav"><a href="#join">join The Club</a></li>
+                    		<li class="undernav"><a href="#next">the Book List</a></li>
+                		</ul>
+                	</div>
+            	</nav>
+        	<span class="copyright"><h4>© 2025  The Banned Book Club</h4></span>
+        	<span class="location"></span>
+      	</div>
+		
+	</footer>
+
+	<!-- End Footer Section -->
+
+	
+
+
+	
+</body>
+</html>

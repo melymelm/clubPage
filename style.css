@@ -1,0 +1,685 @@
+body {
+	font-family: "Lexend Peta", "Helvetica", sans-serif;
+	font-size: 18px;
+	background-color: #E4DECF;
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	width: auto;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1rem;
+
+}
+
+h4 { 
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1rem;
+}
+
+
+button {
+	border: none;
+  	text-align: center;
+  	border-radius: 1.5rem;
+  	margin: 1rem 6rem;
+  	cursor: pointer;
+  	font-family: "Lexend Peta", "Helvetica", sans-serif;
+	font-size: 1rem;
+}
+
+/* start of header */
+
+header {
+	background-color: #fff;
+	height: 29rem;
+	align-items: center;
+}
+
+.logoImage {
+	display: flex;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 25rem;
+}
+
+nav {
+	width: 100%;
+	overflow: auto;
+}
+
+nav ul {
+	list-style: none; 
+	display: flex;
+}
+
+.headerNav li {
+  	font-size: 1.25rem;
+  	width: 32.5%; 
+  	text-align: center;
+}
+
+.headerNav a {
+	text-decoration: none;
+}
+
+
+a:link {
+	color: #000;
+}
+
+a:hover {
+	color: #57652A;
+}
+
+a:visited {
+	color: #AB9353;
+}
+
+
+/* media sizing for header */
+
+@media only screen and (max-width: 750px) {
+
+		header .mobile {
+			height: auto;
+		}
+
+		.headerNav li {
+			font-size: 12px;
+		}
+
+		.logoImage {
+			height: 18rem;
+		}
+
+
+	}
+
+/* end of media sizing for header */	
+
+/* end of header */
+
+
+/* start of intro section */
+
+.container {
+	margin-bottom: 2rem;
+
+
+	
+}
+
+.openImage {
+	display: flex;
+  	justify-content: center;
+	margin-top: 2rem;
+	height: 2rem;
+
+}
+
+.bannedImg {
+	width: 90%;
+	margin-left: 5rem;
+	margin-top: 1rem;
+}
+
+.intro {
+	background: rgba(255, 255, 255, 0.8);
+	margin-top: 35rem;
+	
+}
+
+h1.capTitle {
+	font-family: "Kumar One Outline", "Helvetica", sans-serif;
+	font-size: 6rem;
+	display: inline;
+	align-items: center;
+}
+
+h1 {
+	display: inline;
+	align-items: center;
+}
+
+h1.introText {
+	font-size: 2rem;
+}
+
+h2.introText {
+	font-weight: 300;
+	font-size: 1.25rem;
+}
+
+.text {
+	text-align: left;
+	margin-left: 17rem;
+	margin-right: 17rem;
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+
+/* start of media sizing for intro */
+
+@media only screen and (max-width: 1215px) {
+
+		.intro {
+			margin-top: 30rem;
+	
+		}
+
+		h1.introText {
+			line-height: .25rem;
+		}
+
+		.text {
+			margin-left: 2rem;
+			margin-right: 2rem;
+		}
+
+
+
+	}
+
+@media only screen and (max-width: 1050px) {
+
+		.intro {
+			margin-top: 20rem;
+	
+		}
+
+		h1.introText {
+			line-height: .25rem;
+		}
+
+		.text {
+			margin-left: 2rem;
+			margin-right: 2rem;
+		}
+
+
+	}
+
+@media only screen and (max-width: 750px) {
+
+		.intro {
+			margin-top: 15rem;
+		}
+
+		h1.capTitle {
+			font-size: 3rem;
+		}
+
+		h1.introText {
+			font-size: 1.5rem;
+			line-height: .25rem;
+		}
+
+		h2.introText {
+			font-size: 1rem;
+		}
+
+		.text {
+			margin-left: 2rem;
+			margin-right: 2rem;
+		}
+	
+			
+
+
+	}
+
+/* end of media sizing for intro */
+
+
+
+
+/* end of intro section */
+
+/* start of read now section */
+
+.allReadNow {
+	width: 94%;
+	border: 2px solid black;
+	border-radius: .75rem;
+	margin: auto;
+
+}
+
+.bookNow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 0 1.5rem;
+}
+
+.column1 {
+	margin-right: -10rem;
+	justify-content: center;
+	
+
+}
+
+.column2 {
+	background: rgba(255, 255, 255, 0.9);
+	height: 20rem;
+	align-content: center;
+	align-items: center;
+	margin-top: 20rem;
+	margin-left: -10rem;
+	width: 40rem;
+	justify-content: center;
+}
+
+h2.bookText{
+	font-weight: 200;
+	font-size: 1.5rem;
+}
+
+.bookText {
+	text-align: center;
+}
+
+.buttonBuy {
+	background-color: #4D2C3D;
+  	color: #fff;
+  	padding: 20px 50px;
+  	margin-left: 9rem;
+  
+}
+
+/* start of media sizing for read now */
+
+@media only screen and (max-width: 1370px) {
+
+		.buttonBuy {
+  			margin-left: 5rem;
+		}
+	
+}
+
+@media only screen and (max-width: 1215px) {
+
+		.buttonBuy {
+  			margin-left: 3.5rem;
+		}
+	
+}
+
+@media only screen and (max-width: 975px) {
+
+
+		.column1 {
+			margin-right: 0;
+
+		}
+
+		.column2 {
+			height: 15rem;
+			margin-top: 10rem;
+			margin-left: 0;
+			width: 20rem;
+		}
+
+		h2.bookText{
+			font-size: 1rem;
+		}
+
+		.buttonBuy {
+			font-size: 1rem;
+			padding: 10px 30px;
+  			margin-left: 2rem;
+  			width: 18rem;
+  			height: 5rem;
+		}
+	
+}
+
+
+
+/* end of media sizing for read now */
+
+
+/* end of read now section  */
+
+
+
+
+/* start of Next Up section */
+
+
+.nextUp {
+	width: 85.25%;
+	background-color: #fff;
+	margin: 4rem auto 4rem auto;
+	place-items: center;
+	padding: 4rem;
+
+
+}
+
+.nextTitle {
+	text-align: center;
+
+
+}
+
+h1.nextHead {
+	font-weight: 200;
+	font-size: 1.5rem;
+}
+
+.rowNext {
+	display: flex;
+	width: 90%;
+	margin-top: 2rem;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nextContainer {
+	width: 28%;
+	border: 2px solid black;
+	border-radius: .75rem;
+	padding: 1rem;
+}
+
+.monthTitle {
+	text-align: center;
+}
+
+
+.nextImage {
+	height: 400px;
+}
+
+.content {
+	padding: 0;
+}
+
+.buttonNow {
+	background-color: #155763;
+  	color: #fff;
+  	height: 4rem;
+  	width: 15rem;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+/* start of media sizing for next up */
+
+
+@media only screen and (max-width: 1215px) {
+
+	.nextImage {
+		height: 300px;
+	}
+
+	.nextTitle {
+	font-size: .80rem;
+	}
+	
+}
+
+@media only screen and (max-width: 975px) {
+
+	.rowNext {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nextContainer {
+		width: 100%;
+	}
+
+	.nextImage {
+		height: 200px;
+	}
+	
+}
+
+@media only screen and (max-width: 750px) {
+	.nextImage {
+		height: 300px;
+	}
+
+	.nextTitle {
+		font-size: .6rem;
+	}
+
+	.month {
+		font-size: 1rem;
+	}	
+
+	button {
+		font-size: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+	.month {
+		font-size: .75rem;
+	}
+
+	.nextImage {
+		height: 300px;
+	}
+
+	.buttonNow {
+  		height: 2rem;
+  		width: 7rem;
+	}
+
+	button {
+		font-size: 12px;
+	}
+
+}
+
+/* end of media sizing for next up */
+
+
+/* end of Next Up section */
+
+
+
+
+/* start of Join Up Section */
+
+.joinUs {
+	width: 90%;
+	border: 2px solid black;
+	border-radius: .75rem;
+	margin: 4rem auto 4rem auto;
+	place-items: center;
+	padding: 2rem;
+	background-color: #79b3bd;
+}
+
+.joinRow {
+	display: flex;
+	width: 90%;
+	margin-top: 2rem;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff;
+	border-radius: .75rem;
+}
+
+.joinContainer {
+	width: 50%;
+	border: 2px solid black;
+	border-radius: .75rem;
+	background-color: #fff;
+	padding: 2rem;
+}
+
+.joinText {
+	width: 40%;
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: .75rem;
+}
+
+.joinImage {
+	height: 15rem;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 90%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #000; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "Lexend Peta", "Helvetica", sans-serif;
+	font-size: 12px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  	background-color: #4D2C3D;
+  	color: #fff;
+  	height: 4rem;
+  	width: 15rem;
+  	border-radius: .75rem;
+  	margin-left: auto;
+  	margin-right: auto;
+  	font-family: "Lexend Peta", "Helvetica", sans-serif;
+	font-size: 18px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #A09B9E;
+}
+
+
+
+
+/* start of media sizing for join up */
+
+
+@media only screen and (max-width: 1215px) {
+
+
+	
+}
+
+@media only screen and (max-width: 975px) {
+
+	
+}
+
+@media only screen and (max-width: 775px) {
+	.joinRow {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.joinImage {
+		align-content: center;
+	}
+
+	input[type=submit] {
+  		height: 4rem;
+  		width: 10rem;
+		font-size: 15px;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 650px) {
+	.nextImage {
+		height: 150px;
+	}
+
+	.nextTitle {
+		font-size: .5rem;
+	}
+
+	.month {
+		font-size: .75rem;
+	}
+
+	.buttonNow {
+  		height: 2rem;
+  		width: 7rem;
+	}
+
+	button {
+		font-size: 12px;
+	}
+
+}
+
+/* end of media sizing for join up */
+
+
+
+
+/* end of Join Up Section */
+
+footer {
+	
+
+
+}
+
+.contentFooter {
+	text-align: center;
+	align-content: center;
+	height: 400px;
+	background-color: #fff;
+}
+
+.footerImage {
+	display: flex;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 15rem;
+}
+
+.copyright {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+
+
+/* start of Footer Section */
+
+
+
+
+
+
+
